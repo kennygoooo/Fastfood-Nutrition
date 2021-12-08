@@ -7,15 +7,25 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainPageView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            LogoList()
+                .tabItem{
+                    Label("餐廳", systemImage: "fork.knife.circle")
+                }
+            Text("icon")
+                .tabItem{
+                    Label("封面", systemImage: "display")
+                }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+
+struct MainPageView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainPageView()
+        
     }
 }

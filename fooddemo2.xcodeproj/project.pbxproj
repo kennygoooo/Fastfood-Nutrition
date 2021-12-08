@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B901F0E7275116E300BD45A0 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901F0E6275116E300BD45A0 /* MainPageView.swift */; };
+		B901F0E92751231F00BD45A0 /* MOSList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B901F0E82751231F00BD45A0 /* MOSList.swift */; };
 		B92428602750994E00DC8100 /* fooddemo2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924285F2750994E00DC8100 /* fooddemo2App.swift */; };
-		B92428622750994E00DC8100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92428612750994E00DC8100 /* ContentView.swift */; };
 		B92428642750995200DC8100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92428632750995200DC8100 /* Assets.xcassets */; };
 		B92428672750995200DC8100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92428662750995200DC8100 /* Preview Assets.xcassets */; };
+		B96F047C27550A3B0046A2B9 /* BurgerKingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F047B27550A3B0046A2B9 /* BurgerKingList.swift */; };
+		B9966F0D275925620017881B /* ChooseIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9966F0C275925620017881B /* ChooseIcon.swift */; };
+		B9CE1BE727592A3200466A92 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CE1BE527592A3200466A92 /* Icon@2x.png */; };
+		B9CE1BE827592A3200466A92 /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CE1BE627592A3200466A92 /* Icon@3x.png */; };
+		B9F7F27927509ABC00BE6CFE /* LogoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7F27827509ABC00BE6CFE /* LogoList.swift */; };
+		B9F7F27B27509B5500BE6CFE /* McDonaldList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7F27A27509B5500BE6CFE /* McDonaldList.swift */; };
+		B9F7F27D2750DF2800BE6CFE /* KFCList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7F27C2750DF2800BE6CFE /* KFCList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B901F0E6275116E300BD45A0 /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		B901F0E82751231F00BD45A0 /* MOSList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOSList.swift; sourceTree = "<group>"; };
 		B924285C2750994E00DC8100 /* fooddemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fooddemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B924285F2750994E00DC8100 /* fooddemo2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fooddemo2App.swift; sourceTree = "<group>"; };
-		B92428612750994E00DC8100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B92428632750995200DC8100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92428662750995200DC8100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B96F047B27550A3B0046A2B9 /* BurgerKingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerKingList.swift; sourceTree = "<group>"; };
+		B9966F0C275925620017881B /* ChooseIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseIcon.swift; sourceTree = "<group>"; };
+		B9CE1BE527592A3200466A92 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B9CE1BE627592A3200466A92 /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
+		B9F7F27827509ABC00BE6CFE /* LogoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoList.swift; sourceTree = "<group>"; };
+		B9F7F27A27509B5500BE6CFE /* McDonaldList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonaldList.swift; sourceTree = "<group>"; };
+		B9F7F27C2750DF2800BE6CFE /* KFCList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFCList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,16 @@
 		B924285E2750994E00DC8100 /* fooddemo2 */ = {
 			isa = PBXGroup;
 			children = (
+				B9CE1BE527592A3200466A92 /* Icon@2x.png */,
+				B9CE1BE627592A3200466A92 /* Icon@3x.png */,
 				B924285F2750994E00DC8100 /* fooddemo2App.swift */,
-				B92428612750994E00DC8100 /* ContentView.swift */,
+				B901F0E6275116E300BD45A0 /* MainPageView.swift */,
+				B9966F0C275925620017881B /* ChooseIcon.swift */,
+				B9F7F27827509ABC00BE6CFE /* LogoList.swift */,
+				B9F7F27A27509B5500BE6CFE /* McDonaldList.swift */,
+				B9F7F27C2750DF2800BE6CFE /* KFCList.swift */,
+				B901F0E82751231F00BD45A0 /* MOSList.swift */,
+				B96F047B27550A3B0046A2B9 /* BurgerKingList.swift */,
 				B92428632750995200DC8100 /* Assets.xcassets */,
 				B92428652750995200DC8100 /* Preview Content */,
 			);
@@ -126,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92428672750995200DC8100 /* Preview Assets.xcassets in Resources */,
+				B9CE1BE727592A3200466A92 /* Icon@2x.png in Resources */,
+				B9CE1BE827592A3200466A92 /* Icon@3x.png in Resources */,
 				B92428642750995200DC8100 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +163,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B92428622750994E00DC8100 /* ContentView.swift in Sources */,
 				B92428602750994E00DC8100 /* fooddemo2App.swift in Sources */,
+				B9F7F27927509ABC00BE6CFE /* LogoList.swift in Sources */,
+				B96F047C27550A3B0046A2B9 /* BurgerKingList.swift in Sources */,
+				B901F0E7275116E300BD45A0 /* MainPageView.swift in Sources */,
+				B9F7F27D2750DF2800BE6CFE /* KFCList.swift in Sources */,
+				B9966F0D275925620017881B /* ChooseIcon.swift in Sources */,
+				B9F7F27B27509B5500BE6CFE /* McDonaldList.swift in Sources */,
+				B901F0E92751231F00BD45A0 /* MOSList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"fooddemo2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fooddemo2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,6 +333,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"fooddemo2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fooddemo2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
